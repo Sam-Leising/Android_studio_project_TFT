@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Menu">
+    </item>
+    <item
+        android:id="@+id/champions"
+        android:title="Champions">
+    </item>
+
+    <item
+        android:id="@+id/team_comps"
+        android:title="Team Comps">
+    </item>
+    <item
+        android:id="@+id/items"
+        android:title="Items">
+    </item>
+    <item
+        android:id="@+id/chLevel"
+        android:title="champions_level">
+    </item>
+
+    <item
+        android:id="@+id/login"
+        android:title="Logout">
+    </item>
+
+    <item
+        android:id="@+id/game"
+        android:title="Game">
+    </item>
+    <item
+        android:id="@+id/patchnotes"
+        android:title="Patchnotes">
+    </item>
+
+
+
+
+
+</menu>

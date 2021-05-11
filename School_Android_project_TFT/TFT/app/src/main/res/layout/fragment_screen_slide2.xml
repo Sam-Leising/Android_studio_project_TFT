@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView style="?android:textAppearanceMedium"
+        android:padding="16dp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TFT Patch Notes"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Patch 11.6b"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="March 24, 2021"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/viewplain"
+            android:text="Blance Chaneges"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Developer Notes: Because this is the patch Worlds events will be played on we are taking extra care to make more minor adjustments. We’re reducing the power of starred-up Tristana and Kayle carries as well as the Mage trait, that have all been performing a smidgen too well. The Neeko buff gives her favorite composition, Vanguard-Mystics, a small buff after our Vanguard nerf last patch.                                                                                          Tristana Rapid Fire on hit magic damage: 30/60/90 ⇒ 40/60/80                                                                                       Neeko Blooming Burst Damage: 200/300/400 ⇒ 250/350/450                                                             Kayle Divine Ascension wave bonus damage: 100/150/400 ⇒ 100/140/350                                                                                Mage Bonus Spell Power: 80/105/135% ⇒ 80/105/130%"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">TFT</string>
+
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="chLevel">Heros Top 10</string>
+    <string name="CreateAnAaccount">Create</string>
+    <string name="loGin">Login</string>
+    <string name="submit">Submit</string>
+    <string name="prompt">prompt</string>
+    <string name="item">TFT Items Cheat Sheet</string>
+    <string name="selected">Selected Item:</string>
+    <string name="afsword">B.F. Sword</string>
+    <string name="chainvest">Chain Vest</string>
+    <string name="gbelt">Belt of Giant</string>
+    <string name="sparring_gloves">Sparring Gloves</string>
+    <string name="large_rod">Needlessly Large Rod</string>
+    <string name="negatron_cloak">Negatron Cloak</string>
+    <string name="recurve_bow">Recurve Bow</string>
+    <string name="tear">Tear of the Goddess</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="register"><u>Register</u></string>
+    <string name="deathblade_desc">
+        Contributing to a kill grants the holder +10 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 3).</string>
+    <string name="deathblade">Deathblade</string>
+    <string name="guardianangel">Guardian Angel</string>
+    <string name="guardianangel_desc">"         Prevents first death of the wearer, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects."</string>
+    <string name="zekesherald">Zeke Herald</string>
+    <string name="zekesherald_desc">When combat begins, the wearer and all allies within 1 hexes in the same row gain 30% bonus Attack Speed for the rest of combat.</string>
+    <string name="hextechgunblade">Hextech Gunblade</string>
+    <string name="hextechgunblade_desc">The holder spells heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage.</string>
+    <string name="bloodthirster">Bloodthirster</string>
+    <string name="bloodthirster_desc">Basic Attacks heal the holder for 40% of the damage dealt.</string>
+    <string name="giantslayer">Giant Slayer</string>
+    <string name="giantslayer_desc">The holder spells and basic attacks do 10% bonus damage. If the target has more than 1750 maximum Health, the bonus increases to 80%.</string>
+    <string name="infinityedge">Infinity Edge</string>
+    <string name="infinityedge_desc">[Unique] Grants 75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% become +1% Critical Strike Damage.</string>
+    <string name="spearofshojin">Spear of Shojin</string>
+    <string name="spearofshojin_desc">The holder basic attacks restore 5 Mana on-hit.</string>
+    <string name="bramblevest">Bramble Vest</string>
+    <string name="bramblevest_desc">Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 80/100/150★ magic damage to all nearby enemies (once every 2.5 seconds).</string>
+    <string name="sunfirecape">Sunfire Cape</string>
+    <string name="sunfirecape_desc">Every 2.5 seconds, a random enemy within 2 hexes is burned for 25% of their maximum health over 10 seconds. Any healing they receive is reduced by 50%.</string>
+    <string name="locketoftheIronsolari">Locket of the Iron Solari</string>
+    <string name="locketoftheIronsolari_desc">When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300/350/450★ damage for 8 seconds.</string>
+    <string name="gargoyle">Gargoyle Stoneplate</string>
+    <string name="gargoyle_desc">The holder gains 20 Armor and 20 Magic Resist for each enemy targeting them.</string>
+    <string name="titans">Titan Resolve</string>
+    <string name="titans_desc">When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size.</string>
+    <string name="shroudo">Shroud of Stillness</string>
+    <string name="shroudo_desc">[Unique] When combat begins, shoots a beam straight ahead that delays affected enemies first spellcast, increasing their max Mana by 35% until they cast.</string>
+    <string name="frozen">Frozen Heart</string>
+    <string name="frozen_desc">Reduces the Attack Speed of nearby enemies by 50%. Each Frozen Heart a champion carries beyond the first increases the radius of this effect.</string>
+    <string name="warmogsarmor">Warmog Armor</string>
+    <string name="warmogsarmor_desc">Grants 1000 bonus Health (including components).</string>
+    <string name="morellonomicon">Morellonomicon</string>
+    <string name="morellonomicon_desc">[Unique] When the holder deals damage with their spell, they burn the target, dealing 25% of the targets maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn.</string>
+    <string name="zephyr">Zephyr</string>
+    <string name="zephyr_desc">[Unique] When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.</string>
+    <string name="zzrotportal">Zz Rot Portal</string>
+    <string name="zzrotportal_desc">At the start of combat, the wearer taunts enemies within 2 hexes for 1 second. When the wearer dies, a Construct with 1500/2250/3000★ Health arises and taunts all nearby enemies again.</string>
+    <string name="trapclaw">Trap Claw</string>
+    <string name="trapclaw_desc">Blocks the first enemy spell that hits the wearer, and stuns the spells caster for 4 seconds.</string>
+    <string name="redemption">Redemption</string>
+    <string name="redemption_desc">When the wearer dies, allies are healed for 800 Health.</string>
+    <string name="thiefsgloves">Thief Gloves</string>
+    <string name="thiefsgloves_desc">At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level (consumes 3 item slots).</string>
+    <string name="jeweled">Jeweled Gauntlet</string>
+    <string name="jeweled_desc">The holders spells can cause critical hits, and holder gains +40% Critical Strike Damage.</string>
+    <string name="quicksilver">Quicksilver</string>
+    <string name="quicksilver_desc">[Unique] The wearer is immune to crowd control for the first 10 seconds of combat.</string>
+    <string name="lastwhisper">Last Whisper</string>
+    <string name="lastwhisper_desc">[Unique] When the wearer inflicts a critical hit, the target Armor is reduced by 70% for 5 seconds. This effect does not stack.</string>
+    <string name="handofJustice">Hand of Justice</string>
+    <string name="handofJustice_desc">At the beginning of each planning phase, the wearer gains one of the following: Basic attacks and spells deal +40% Damage or Basic attacks and spells heal for 40% of damage dealt.</string>
+    <string name="rabadons">Rabadon Deathcap</string>
+    <string name="rabadons_desc">The holder gains 50 additional Spell Power.</string>
+    <string name="lonicspark">Ionic Spark</string>
+    <string name="lonicspark_desc">Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana.</string>
+    <string name="dragonsclaw">Dragon Claw</string>
+    <string name="dragonsclaw_desc">Reduces incoming magic damage by 60%.</string>
+    <string name="guinsoos">Guinsoo Rageblade</string>
+    <string name="guinsoos_desc">Basic Attacks grant +6% bonus Attack Speed for the rest of combat. This effect can stack any number of times.</string>
+    <string name="ludensecho">Luden Echo</string>
+    <string name="ludensecho_desc">When the holder casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 180 magic damage, and 180 bonus damage if they are crowd-controlled.</string>
+    <string name="runaans">Runaan Hurricane</string>
+    <string name="runaans_desc">Basic Attacks fire a bolt at another nearby enemy, dealing 80% of the wearer Attack Damage and applying on-hit effects. These bolts can critically strike.</string>
+    <string name="chaliceofpower">Chalice of Power</string>
+    <string name="chaliceofpower_desc">When combat begins, the wearer and all allies within 1 hex in the same row gain 30 Spell Power for the rest of combat.</string>
+    <string name="rapid">Rapid Firecannon</string>
+    <string name="rapid_desc">The holder gains 200% Attack Range, and their Basic Attacks can not miss.</string>
+    <string name="statikkshiv">Statikk Shiv</string>
+    <string name="statikkshiv_desc">Every third Basic Attack from the wearer deals 65 magic damage to 4 enemies. Critical strikes from this effect reduce the targets Magic Resist by 60% for 6 seconds.</string>
+
+    <string name="bluebuff">Blue Buff</string>
+    <string name="bluebuff_desc">[Unique] After casting their spell, the wearer Mana is set to 20.</string>
+
+
+    <string-array name="chLevel">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Neptune</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

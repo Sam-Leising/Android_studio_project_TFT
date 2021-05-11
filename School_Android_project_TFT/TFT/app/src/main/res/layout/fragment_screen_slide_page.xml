@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView style="?android:textAppearanceMedium"
+        android:padding="16dp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TFT Patch Notes"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Patch 11.7"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="March 31, 2021"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/viewplain"
+            android:text="Traits"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Developer Notes: After demoting Vanguard to CarpoolGuard in 11.5, we’re giving it back some tankiness at max rank.  Vanguard Armor: 100/250/500/800⇒100/250/500/1000"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/viewplain"
+            android:text="Champions"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Tier 1"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Developer Notes: Nidalee carry’s going to be feline’ mean spearitied after this one.                                                         Nidalee Javelin Toss Damage: 100/175/300⇒100/175/350"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Tier 2"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Developer Notes: Vlad’s been clot up in the late game even when at three stars. The totally not-a-vampire blood mage will feel less like a hemogoblin and more like the behemoth team drainer he was made to be.                                                                                   Vladimir Transfusion Damage: 400/600/900⇒400/600/1000"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Tier 3"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:layout_margin="10dp"
+            android:text="Developer Notes: It’s no axecident that we’re buffing all these lesser played carries. From utilkity carries, to tank carries (see Tier 4), don’t be disarmed by the new furmidable team comps that arise this patch.                                                                              Darius Fortune’s Guillotine Damage Falloff upon reset: 25%⇒25/20/10%                                                                             Irelia Bladestorm Disarm Duration: 2.5/3/4⇒2.5/3/5 seconds
+            Yuumi Zoomies Heal: 30/45/75%⇒30/45/90% missing Health"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+    </LinearLayout>

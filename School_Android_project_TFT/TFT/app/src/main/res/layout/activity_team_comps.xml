@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Filters"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Set 4.5"
+            android:textColor="@color/white"
+            android:background="@drawable/viewplain"/>
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/search_bg"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:ems="10"
+        android:hint="Search..."
+        android:textColorHint="@color/Lavender"
+        android:textColor="@color/Lavender"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        android:drawableLeft="@drawable/ic_baseline_search_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:textSize="17sp"
+            android:background="#063950"
+            android:gravity="center"
+            android:text="The order inside each tier does not matter"
+            android:textColor="#9CA1A2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:textSize="17sp"
+            android:background="#063950"
+            android:gravity="center"
+            android:text="Patch 11.7"
+            android:textColor="#9CA1A2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:background="#063950"
+            android:gravity="center"
+            android:drawableLeft="@drawable/tierup"
+            android:text="Tiew Up"
+            android:textColor="#9CA1A2"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:background="#063950"
+            android:gravity="center"
+            android:text="Tiew Down"
+            android:drawableLeft="@drawable/tierdown"
+            android:textColor="#9CA1A2"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:background="#063950"
+            android:gravity="center"
+            android:text="New"
+            android:drawableLeft="@drawable/tiernew"
+            android:textColor="#9CA1A2"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+
+
+
+</LinearLayout>
