@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "1027296254137",
-    "firebase_url": "https://project1-c83eb-default-rtdb.firebaseio.com",
-    "project_id": "project1-c83eb",
-    "storage_bucket": "project1-c83eb.appspot.com"
+    "project_number": "84885708161",
+    "project_id": "school-project-tft",
+    "storage_bucket": "school-project-tft.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1027296254137:android:38869415ad10ea8ff6e368",
+        "mobilesdk_app_id": "1:84885708161:android:e31b1f25ae0b3b5e789c80",
         "android_client_info": {
           "package_name": "com.example.p"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1027296254137-8gnkrhk9743ebrrc349c6tjkmj6l0im4.apps.googleusercontent.com",
+          "client_id": "84885708161-dsc0e55ki42dpbgq8s2e76p01n9cmja8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDYkBPgY6WGmtqLr3qAfIF2SpRHFnp6IbA"
+          "current_key": "AIzaSyAw5qJnMhnIVWrLApH54wBHQX6OXG6zuko"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1027296254137-8gnkrhk9743ebrrc349c6tjkmj6l0im4.apps.googleusercontent.com",
+              "client_id": "84885708161-dsc0e55ki42dpbgq8s2e76p01n9cmja8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
